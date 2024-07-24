@@ -45,7 +45,7 @@
 - **Source Register 1 (4 bits):** The first operand register.
 - **Source Register 2/Immediate (4 bits):** The second operand register or an immediate value.
 
-#### Example Instruction Set
+#### Instruction Set
 
 | Opcode | Mnemonic | Description               |
 |--------|----------|---------------------------|
@@ -66,7 +66,7 @@
 | 1110   | POP      | Pop register from stack   |
 | 1111   | LDI      | Load immediate            |
 
-### Instruction Decoding Example
+### Instruction Decoding
 
 Consider the instruction `ADD R1, R2`.
 
